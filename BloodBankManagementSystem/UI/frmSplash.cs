@@ -21,8 +21,8 @@ namespace BloodBankManagementSystem.UI
         private void timerSplash_Tick(object sender, EventArgs e)
         {
             //Write the code to show Loading Animation
-            timerSplash.Interval = 20;
-            panelMovable.Width += 5;
+            timerSplash.Interval = 8;
+            panelMovable.Width += 8;
 
             move += 5;
 
